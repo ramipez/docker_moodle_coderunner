@@ -38,6 +38,7 @@ RUN ln -snf /usr/share/zoneinfo/"$TZ" /etc/localtime && \
         pylint \
         sqlite3 \
         sudo \
+        swi-prolog \
         tzdata \
         unzip && \
     pylint --reports=no --score=n --generate-rcfile > /etc/pylintrc && \
